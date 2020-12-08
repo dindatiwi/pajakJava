@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dlogn"
+    tools:context=".MainActivity"
+
+    >
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center"
+        android:layout_width="131dp"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/dtaxcoplogo"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_gravity="center"
+        android:layout_marginTop="1dp"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:background="@drawable/dcustom_input"
+        android:hint="Email Address"
+        android:drawablePadding="12dp"
+        android:drawableStart="@drawable/dcustom_email_icon"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="353dp"
+        android:drawableLeft="@drawable/dic_email"
+        android:paddingLeft="12dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:background="@drawable/dcustom_input"
+        android:hint="Password"
+        android:drawablePadding="12dp"
+        android:drawableStart="@drawable/dcustom_lock_icon"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/dcustom_lock_icon" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_gravity="center"
+        android:layout_marginTop="78dp"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/norwester"
+        android:gravity="center"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="615dp" />
+
+
+</LinearLayout>
