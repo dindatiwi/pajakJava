@@ -6,6 +6,7 @@ android {
     defaultConfig {
         applicationId "com.driko.dtaxcop"
         minSdkVersion 16
+
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
