@@ -4,65 +4,78 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@drawable/dlogn"
+    android:orientation="vertical"
     tools:context=".MainActivity"
 
     >
 
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="79dp"
+        android:layout_height="79dp"
+        app:srcCompat="@drawable/dback"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="20dp"
+        android:background="?android:selectableItemBackground"
+        android:layout_marginStart="17dp"
+        android:layout_alignParentStart="true" />
 
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_marginTop="200dp"
-        android:layout_gravity="center"
         android:layout_width="131dp"
         android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="73dp"
         app:srcCompat="@drawable/dtaxcoplogo"
         tools:layout_editor_absoluteX="140dp"
         tools:layout_editor_absoluteY="193dp" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
-        android:layout_gravity="center"
-        android:layout_marginTop="1dp"
         android:layout_width="330dp"
         android:layout_height="48dp"
-        android:paddingStart="12dp"
-        android:paddingEnd="12dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="1dp"
         android:background="@drawable/dcustom_input"
-        android:hint="Email Address"
-        android:drawablePadding="12dp"
         android:drawableStart="@drawable/dcustom_email_icon"
-        android:ems="10"
-        android:inputType="textEmailAddress"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="353dp"
         android:drawableLeft="@drawable/dic_email"
-        android:paddingLeft="12dp" />
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:paddingStart="12dp"
+        android:paddingLeft="12dp"
+        android:paddingEnd="12dp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="353dp" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
-        android:layout_gravity="center"
-        android:layout_marginTop="28dp"
         android:layout_width="330dp"
         android:layout_height="48dp"
-        android:paddingStart="12dp"
-        android:paddingEnd="12dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"
         android:background="@drawable/dcustom_input"
-        android:hint="Password"
-        android:drawablePadding="12dp"
         android:drawableStart="@drawable/dcustom_lock_icon"
+        android:drawableLeft="@drawable/dcustom_lock_icon"
+        android:drawablePadding="12dp"
         android:ems="10"
+        android:hint="Password"
         android:inputType="textPassword"
-        android:drawableLeft="@drawable/dcustom_lock_icon" />
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_gravity="center"
-        android:layout_marginTop="78dp"
         android:layout_width="220dp"
         android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="78dp"
         android:background="@drawable/custom_button"
         android:fontFamily="@font/norwester"
         android:gravity="center"
@@ -72,6 +85,8 @@
         android:textStyle="bold"
         tools:layout_editor_absoluteX="119dp"
         tools:layout_editor_absoluteY="615dp" />
+
+
 
 
 </LinearLayout>

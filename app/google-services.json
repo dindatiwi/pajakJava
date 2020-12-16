@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "50386947939",
+    "project_id": "dtaxcop",
+    "storage_bucket": "dtaxcop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50386947939:android:0744d0f5beca89557fcd56",
+        "android_client_info": {
+          "package_name": "com.driko.dtaxcop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50386947939-g7bblnn4t86pnhvl9knndko48ss2bnrv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwQ7NzGRlNmStw0j8ANZ7SncIfuJbKKgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "50386947939-g7bblnn4t86pnhvl9knndko48ss2bnrv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

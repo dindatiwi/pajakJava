@@ -27,23 +27,19 @@
         tools:layout_editor_absoluteX="42dp"
         tools:layout_editor_absoluteY="559dp" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="268dp"
+        android:layout_height="290dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="121dp"
-        android:layout_marginRight="121dp"
-        android:layout_marginBottom="590dp"
-        android:fontFamily="@font/norwester"
-        android:text="Selamat Datang !"
-        android:textColor="#FFFFFF"
-        android:textSize="38sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="137dp" />
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="385dp"
+        app:srcCompat="@drawable/dtaxcop"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="85dp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -52,9 +48,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="370dp"
-        android:layout_marginRight="370dp"
-        android:layout_marginBottom="537dp"
+        android:layout_marginEnd="362dp"
+        android:layout_marginRight="362dp"
+        android:layout_marginBottom="539dp"
         android:fontFamily="@font/norwester"
         android:text="Di"
         android:textColor="#FFFFFF"
@@ -63,19 +59,23 @@
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="184dp" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="268dp"
-        android:layout_height="290dp"
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="88dp"
-        android:layout_marginRight="88dp"
-        android:layout_marginBottom="383dp"
-        app:srcCompat="@drawable/dtaxcop"
-        tools:layout_editor_absoluteX="63dp"
-        tools:layout_editor_absoluteY="85dp" />
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="598dp"
+        android:fontFamily="@font/norwester"
+        android:text="Selamat Datang !"
+        android:textColor="#FFFFFF"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="137dp" />
 
 
 </RelativeLayout>
